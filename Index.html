@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Survey</title>
+</head>
+
+<body>
+  <!--Display-->
+  <p id="numOfSubmission">Submitted: 0</p>
+  <p id="yesOptionResult">Yes: null</p>
+  <p id="noOptionResult">No: null</p></br>
+  
+  <p id="percentageOfYes">Yes: null</p>
+  <p id="percentageOfNo">No: null</p>
+  
+  <!--Question-->
+  <p>Select:</p>
+  
+  <!--Options-->
+  <label for="Yes">Yes</label>
+  <input type="radio" name="Option" id="yesOption" value="Yes">
+  
+  <label for="No">No</label>
+  <input type="radio" name="Option" id="noOption" value="No"><br><br>
+  
+  <button type="submit" onclick="submit()">Submit</button>
+  
+  <script src="index.js"></script>
+</body>
+
+</html>
